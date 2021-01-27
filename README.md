@@ -1,0 +1,1 @@
+# sdk-bsp-allwinner_tina
