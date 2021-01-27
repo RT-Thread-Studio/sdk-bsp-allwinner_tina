@@ -1,0 +1,87 @@
+board:
+  buy_url_cn: https://www.rt-thread.org
+  buy_url_global: https://www.rt-thread.org
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: Allwinner tina is one ARM9 SOC developed by Allwinner
+  description_zh: Allwinner tina 是由全志公司推出的 ARM9 内核的 SOC
+  emulator_machine: ''
+  large_image: documents/images/large.png
+  name: ALLWINNER_TINA
+  price_cn: 189 CNY
+  price_global: 27.99 USD
+  sale_contact_cn: https://www.rt-thread.org
+  sale_contact_global: https://www.rt-thread.org
+  small_image: documents/images/small.png
+  vendor: Allwinner
+  version: 1.0.0
+chip:
+  chip_name: ARM9
+  clock_source: HSE
+  device_vendor: Allwinner
+  family_name: tina
+  rx_name: PA10
+  series_name: ARM9
+  source_freq: '8000000'
+  sub_series_name: ARM9
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs: []
+example_projects: []
+features:
+- 'Chip: tina series'
+- 'CPU: ARM9'
+- 'Frequency: 408MHz'
+- 'DDR: 32MB'
+features_zh:
+- 芯片型号：tina 系列
+- CPU：ARM9
+- 主频：408MHz
+- DDR：32MB
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .project
+    - .settings
+    - applications
+    - cconfig.h
+    - drivers
+    - Kconfig
+    - libcpu
+    - link.lds
+    - makefile.targets
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: ''
+  project_name: allwinner_tina
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
