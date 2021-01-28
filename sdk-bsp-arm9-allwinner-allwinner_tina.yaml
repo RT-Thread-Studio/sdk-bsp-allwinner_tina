@@ -7,7 +7,7 @@ board:
   description_zh: Allwinner tina 是由全志公司推出的 ARM9 内核的 SOC
   emulator_machine: ''
   large_image: documents/images/large.png
-  name: ALLWINNER_TINA
+  name: ARM9-ALLWINNER-TINA
   price_cn: 189 CNY
   price_global: 27.99 USD
   sale_contact_cn: https://www.rt-thread.org
